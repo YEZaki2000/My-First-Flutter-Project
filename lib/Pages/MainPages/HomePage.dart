@@ -73,3 +73,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ));
   }
 }
+
+class NotesModel {
+  List<ListTile> listTiles = [
+    const ListTile(
+      title: Text("Title"),
+      subtitle: Text("Subtitle"),
+      isThreeLine: true,
+    )
+  ];
+}
